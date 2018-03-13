@@ -8,9 +8,9 @@ namespace GeekBurger.LabelLoader.Contract
     interface ILabelImageAddedOut
     {
         /// <summary>
-        /// Gets or sets the product name
+        /// Gets or sets the item name
         /// </summary>
-        string ProductName { get; set; }
+        string ItemtName { get; set; }
         /// <summary>
         /// Gets or sets the list of ingredients
         /// </summary>
