@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.LabelLoader", "GeekBurger.LabelLoader\GeekBurger.LabelLoader.csproj", "{337FDDB7-283E-4F42-B027-FE8DC6224342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.LabelLoader.Contract", "..\GeekBurger.LabelLoader.Contract\GeekBurger.LabelLoader.Contract.csproj", "{985412DE-6724-4A59-A9DF-A92187279A01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.LabelLoader.Contract", "GeekBurger.LabelLoader\GeekBurger.LabelLoader.Contract\GeekBurger.LabelLoader.Contract.csproj", "{985412DE-6724-4A59-A9DF-A92187279A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
