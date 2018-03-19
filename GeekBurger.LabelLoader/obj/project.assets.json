@@ -812,6 +812,18 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.ProjectOxford.Vision/1.0.393": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.2"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.ProjectOxford.Vision.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.ProjectOxford.Vision.dll": {}
+        }
+      },
       "Microsoft.Rest.ClientRuntime/2.3.10": {
         "type": "package",
         "dependencies": {
@@ -3366,6 +3378,16 @@
         "runtime.json"
       ]
     },
+    "Microsoft.ProjectOxford.Vision/1.0.393": {
+      "sha512": "rMRqJ3ZZyJ6LsusERUUdDKKWVTnJVvb9vIwgBmRXBF9vr7XMiOFKVulIwlQzVcI1pKRnx6ne5+gcdXm9RoaAQg==",
+      "type": "package",
+      "path": "microsoft.projectoxford.vision/1.0.393",
+      "files": [
+        "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.ProjectOxford.Vision.dll",
+        "microsoft.projectoxford.vision.1.0.393.nupkg.sha512",
+        "microsoft.projectoxford.vision.nuspec"
+      ]
+    },
     "Microsoft.Rest.ClientRuntime/2.3.10": {
       "sha512": "JO9CzV1hvjtrIzq06gJ5nNv7GV24Xz3Y3O9vx7fCe7ndNA0NmD3fZ9JUgFir2UvJ2/+9vvCo/6RXjyfywvQQIw==",
       "type": "package",
@@ -3652,7 +3674,7 @@
       ]
     },
     "runtime.native.System/4.3.0": {
-      "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
+      "sha512": "6xf0xTpHBR0UZJhhT0GqnwPzbFyLpkH/K2z7FNXLzFct9hOi4oubZrtbJflYoZZJrYucQ/ZFnTFZpBTOqYDe0w==",
       "type": "package",
       "path": "runtime.native.system/4.3.0",
       "files": [
@@ -3664,7 +3686,7 @@
       ]
     },
     "runtime.native.System.Net.Http/4.3.0": {
-      "sha512": "ZVuZJqnnegJhd2k/PtAbbIcZ3aZeITq3sj06oKfMBSfphW3HDmk/t4ObvbOk/JA/swGR0LNqMksAh/f7gpTROg==",
+      "sha512": "eNkypw6NNk0OUND0couAMoK+f6HUy2HzreI5qnPpceFtBu++ZOPCdGvTH194fPBxVt5doujH/2vzGuZbnWmznw==",
       "type": "package",
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
@@ -3676,7 +3698,7 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "DloMk88juo0OuOWr56QG7MNchmafTLYWvABy36izkrLI5VledI0rq28KGs1i9wbpeT9NPQrx/wTf8U2vazqQ3Q==",
+      "sha512": "1yeN0CCNXIbviGRr5y9jaM/hYz+wjipEMx+pVLbcTlXCO/tQjLYVT5GuGLdSBUHMLHa3SNRpFvGQ4CogGuCnEw==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -3724,7 +3746,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
+      "sha512": "IQfdCGtaB/ATrIlzCOwn1qc+vCoRYIATCTd/5BaYnmq16OgJd8cBryCKuveU7JmzC7NsLoJymoU5ZL50bPyhUQ==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -4041,7 +4063,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "vK9492b/zlygxULUP0Bs7Do18G/M6WIEcVk73z7MuKEYm6uII8zNYOraM3MsSeU+pMhgY95hYhBf79ZaWvrpBA==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -5636,7 +5658,7 @@
       ]
     },
     "System.Reflection.Emit/4.3.0": {
-      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "sha512": "XcMvwemR3V9tgLlGIeFLd73B73CYezD2jrbuRVEDJ58FGjijX9Fc2ig+Qxf0pel8fNDVbhuBTbK6cghxiKcoFg==",
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
       "files": [
@@ -6705,7 +6727,7 @@
       ]
     },
     "System.Security.Cryptography.Csp/4.3.0": {
-      "sha512": "X4s/FCkEUnRGnwR3aSfVIkldBmtURMhmexALNTwpjklzxWU7yjMk7GHLKOZTNkgnWnE0q7+BCf9N2LVRWxewaA==",
+      "sha512": "ayP1jZGkkWAuNYH/SyZY0/Yi7bINODb7zp34A0rxozTfDiyL9n7wFHIzemPPugHmJvzUav6jGeif+SBaL934oA==",
       "type": "package",
       "path": "system.security.cryptography.csp/4.3.0",
       "files": [
@@ -6774,7 +6796,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
+      "sha512": "B9n3/U6LRMaLniMGuDr1yEJFCm7vS0vyiBtGlivXNgzQzaBiqi0zG8XDV52n2YE+gSSVBYj3Zgm7Eu4atY5tmg==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -6926,7 +6948,7 @@
       ]
     },
     "System.Security.Principal.Windows/4.3.0": {
-      "sha512": "HVL1rvqYtnRCxFsYag/2le/ZfKLK4yMw79+s6FmKXbSCNN0JeAhrYxnRAHFoWRa0dEojsDcbBSpH3l22QxAVyw==",
+      "sha512": "+ROotE7oPf8Rv+fevkExJ/KzT/KTLzJUOE8oNRxdHZJOUpbeVuDHxJU8tBQu5wFWtzcEt5hhhVwv3cJGaErb+A==",
       "type": "package",
       "path": "system.security.principal.windows/4.3.0",
       "files": [
@@ -7449,7 +7471,7 @@
       ]
     },
     "System.Threading.Thread/4.3.0": {
-      "sha512": "OHmbT+Zz065NKII/ZHcH9XO1dEuLGI1L2k7uYss+9C1jLxTC9kTZZuzUOyXHayRk+dft9CiDf3I/QZ0t8JKyBQ==",
+      "sha512": "Ue/b9WJeBeObmQrRUxAGWsoL5LP69hUioTECC61x8qbmwYj1D7gWdHOYmo8vLiP74tjsna3ypZZxqLRteJ6jxQ==",
       "type": "package",
       "path": "system.threading.thread/4.3.0",
       "files": [
@@ -7487,7 +7509,7 @@
       ]
     },
     "System.Threading.ThreadPool/4.3.0": {
-      "sha512": "k/+g4b7vjdd4aix83sTgC9VG6oXYKAktSfNIJUNGxPEj7ryEOfzHHhfnmsZvjxawwcD9HyWXKCXmPjX8U4zeSw==",
+      "sha512": "1R0kXgjory9JxNmQyiGF5jUmfY3PUhFfnj0EXN75qhH4hHVexSD/1xgUxtpM5LNRqd7q4DyAPKCrg30yzmRd1g==",
       "type": "package",
       "path": "system.threading.threadpool/4.3.0",
       "files": [
@@ -7798,12 +7820,12 @@
       "Microsoft.Azure.ServiceBus >= 2.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 2.0.0",
       "Microsoft.NET.Sdk.Functions >= 1.0.6",
+      "Microsoft.ProjectOxford.Vision >= 1.0.393",
       "NETStandard.Library >= 2.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\logonrm\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\NTDELL\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -7812,27 +7834,24 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\logonrm\\source\\repos\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader.csproj",
+      "projectUniqueName": "C:\\repos\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader.csproj",
       "projectName": "GeekBurger.LabelLoader",
-      "projectPath": "C:\\Users\\logonrm\\source\\repos\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader.csproj",
-      "packagesPath": "C:\\Users\\logonrm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\logonrm\\source\\repos\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader\\obj\\",
+      "projectPath": "C:\\repos\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader.csproj",
+      "packagesPath": "C:\\Users\\NTDELL\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\GeekBurger.LabelLoader\\GeekBurger.LabelLoader\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\logonrm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\NTDELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nugetserverfiap11net.azurewebsites.net/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7849,31 +7868,35 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Microsoft.Azure.Management.ServiceBus": {
-            "target": "Package",
-            "version": "[1.1.0, )"
-          },
-          "Microsoft.Azure.Management.ServiceBus.Fluent": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Microsoft.Azure.ServiceBus": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
-          "Microsoft.Extensions.Configuration.Binder": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
           "Microsoft.NET.Sdk.Functions": {
             "target": "Package",
-            "version": "[1.0.6, )"
+            "version": "1.0.6"
+          },
+          "Microsoft.ProjectOxford.Vision": {
+            "target": "Package",
+            "version": "1.0.393"
+          },
+          "Microsoft.Azure.Management.ServiceBus": {
+            "target": "Package",
+            "version": "1.1.0"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "2.0.1",
             "autoReferenced": true
+          },
+          "Microsoft.Azure.Management.ServiceBus.Fluent": {
+            "target": "Package",
+            "version": "1.7.0"
+          },
+          "Microsoft.Extensions.Configuration.Binder": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.Azure.ServiceBus": {
+            "target": "Package",
+            "version": "2.0.0"
           }
         },
         "imports": [
@@ -7891,6 +7914,16 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.AspNet.WebApi.Client 5.2.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Client",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.ProjectOxford.Vision 1.0.393' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.ProjectOxford.Vision",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
       ]

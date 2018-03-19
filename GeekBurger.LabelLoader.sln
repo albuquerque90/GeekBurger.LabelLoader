@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.LabelLoader.Contract", "GeekBurger.LabelLoader.Contract\GeekBurger.LabelLoader.Contract.csproj", "{985412DE-6724-4A59-A9DF-A92187279A01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.LabelLoader", "GeekBurger.LabelLoader\GeekBurger.LabelLoader.csproj", "{26EB4D92-79B2-4CD3-8116-4E7F39E166A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.LabelLoader", "GeekBurger.LabelLoader\GeekBurger.LabelLoader.csproj", "{26EB4D92-79B2-4CD3-8116-4E7F39E166A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
