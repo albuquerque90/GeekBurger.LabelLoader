@@ -15,7 +15,7 @@ namespace GeekBurger.LabelLoader
         private static ServiceBusConfiguration serviceBusConfiguration;
 
         const string VisionApiKey = "acff22f5f9b541c8a6849e4239c66744";
-        const string QueueName = "<your_queue_name>";
+        const string QueueName = "LabelLoader";
 
         [FunctionName("FunctionLabelloader ")]
         public async static void Run([BlobTrigger("LabelImage/{name}", Connection = "")]Stream myBlob, string name, TraceWriter log)
