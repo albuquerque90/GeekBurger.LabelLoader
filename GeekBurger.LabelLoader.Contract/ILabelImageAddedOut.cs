@@ -5,12 +5,12 @@ namespace GeekBurger.LabelLoader.Contract
     /// <summary>
     /// Defines the OUT contract
     /// </summary>
-    interface ILabelImageAddedOut
+    public interface ILabelImageAddedOut
     {
         /// <summary>
         /// Gets or sets the item name
         /// </summary>
-        string ItemtName { get; set; }
+        string ItemName { get; set; }
         /// <summary>
         /// Gets or sets the list of ingredients
         /// </summary>
