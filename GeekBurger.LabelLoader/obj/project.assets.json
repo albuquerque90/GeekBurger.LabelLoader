@@ -7855,6 +7855,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nugetserverfiap11net.azurewebsites.net/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
