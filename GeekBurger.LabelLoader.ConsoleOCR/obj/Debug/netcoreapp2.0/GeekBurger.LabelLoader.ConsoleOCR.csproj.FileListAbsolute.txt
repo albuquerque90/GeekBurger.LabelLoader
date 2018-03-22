@@ -1,0 +1,11 @@
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\bin\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.deps.json
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\bin\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.runtimeconfig.json
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\bin\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.runtimeconfig.dev.json
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\bin\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.dll
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\obj\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.csprojResolveAssemblyReference.cache
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\obj\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.csproj.CoreCompileInputs.cache
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\obj\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.AssemblyInfoInputs.cache
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\obj\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.AssemblyInfo.cs
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\bin\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.pdb
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\obj\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.dll
+C:\Users\RM31551\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.ConsoleOCR\obj\Debug\netcoreapp2.0\GeekBurger.LabelLoader.ConsoleOCR.pdb
