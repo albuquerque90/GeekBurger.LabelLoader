@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.LabelLoader.Contract", "GeekBurger.LabelLoader.Contract\GeekBurger.LabelLoader.Contract.csproj", "{985412DE-6724-4A59-A9DF-A92187279A01}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.LabelLoader", "GeekBurger.LabelLoader\GeekBurger.LabelLoader.csproj", "{26EB4D92-79B2-4CD3-8116-4E7F39E166A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.LabelLoader.ConsoleOCR", "GeekBurger.LabelLoader.ConsoleOCR\GeekBurger.LabelLoader.ConsoleOCR.csproj", "{D9FCCE83-49E7-4953-8784-32C75757EE2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.LabelLoader.ConsoleOCR", "GeekBurger.LabelLoader.ConsoleOCR\GeekBurger.LabelLoader.ConsoleOCR.csproj", "{D9FCCE83-49E7-4953-8784-32C75757EE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.LabelLoader.Console.OCR", "GeekBurger.LabelLoader.Console.OCR\GeekBurger.LabelLoader.Console.OCR.csproj", "{149202D3-AC9B-4602-8EA4-30A5D9732A59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D9FCCE83-49E7-4953-8784-32C75757EE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9FCCE83-49E7-4953-8784-32C75757EE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9FCCE83-49E7-4953-8784-32C75757EE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149202D3-AC9B-4602-8EA4-30A5D9732A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149202D3-AC9B-4602-8EA4-30A5D9732A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149202D3-AC9B-4602-8EA4-30A5D9732A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149202D3-AC9B-4602-8EA4-30A5D9732A59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
