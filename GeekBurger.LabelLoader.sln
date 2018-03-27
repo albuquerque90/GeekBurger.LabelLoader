@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekBurger.LabelLoader", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.LabelLoader.Console.OCR", "GeekBurger.LabelLoader.Console.OCR\GeekBurger.LabelLoader.Console.OCR.csproj", "{149202D3-AC9B-4602-8EA4-30A5D9732A59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBurger.LabelLoaderFunction", "GeekBurger.LabelLoaderFunction\GeekBurger.LabelLoaderFunction.csproj", "{3D045859-7832-4175-BECB-9F66DB6CDBD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{149202D3-AC9B-4602-8EA4-30A5D9732A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{149202D3-AC9B-4602-8EA4-30A5D9732A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{149202D3-AC9B-4602-8EA4-30A5D9732A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D045859-7832-4175-BECB-9F66DB6CDBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D045859-7832-4175-BECB-9F66DB6CDBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D045859-7832-4175-BECB-9F66DB6CDBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D045859-7832-4175-BECB-9F66DB6CDBD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
