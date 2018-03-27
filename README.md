@@ -9,9 +9,9 @@ Professor: Daniel Makiyama
 
 •	37411 – Diego Balduino
 
-•	30868 - Wagner
+•	30868 - Wagner Davanço
 
-•	31976 - Eduardo Nuner
+•	31976 - Eduardo Nunes
 
 •	31551 – Fernando Albuquerque
 
