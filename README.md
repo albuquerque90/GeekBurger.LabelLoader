@@ -41,4 +41,3 @@ O Json gerado pelo swagger no projeto Geekburger.Dashboard se encontra na seguin
 
 •	Models: Responsável por armazenar as entidades que serão usadas no processo dos micro serviços. 
 
-	Estrutura dos métodos
