@@ -21,3 +21,8 @@ C:\Users\logonrm\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.Cons
 C:\Users\logonrm\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.Console.OCR\obj\Debug\GeekBurger.LabelLoader.Console.OCR.csproj.CoreCompileInputs.cache
 C:\Users\logonrm\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.Console.OCR\obj\Debug\GeekBurger.LabelLoader.Console.OCR.exe
 C:\Users\logonrm\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.Console.OCR\obj\Debug\GeekBurger.LabelLoader.Console.OCR.pdb
+C:\Users\logonrm\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.Console.OCR\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\logonrm\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.Console.OCR\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\logonrm\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.Console.OCR\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\logonrm\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.Console.OCR\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\logonrm\Source\Repos\GeekBurger.LabelLoader\GeekBurger.LabelLoader.Console.OCR\bin\Debug\Microsoft.WindowsAzure.Storage.xml

@@ -1,13 +1,10 @@
-﻿using Microsoft.Azure.ServiceBus;
-using Microsoft.ProjectOxford.Vision;
-using Microsoft.ProjectOxford.Vision.Contract;
+﻿using Microsoft.ProjectOxford.Vision;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Queue;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using S = System;
 
 namespace GeekBurger.LabelLoader.Console.OCR
 {
@@ -16,44 +13,42 @@ namespace GeekBurger.LabelLoader.Console.OCR
         static void Main(string[] args)
         {
             FileSystemWatcher watcher = new FileSystemWatcher(@"C:\Temp\Images\", "*.png");
-            watcher.NotifyFilter = NotifyFilters.LastWrite;
-            watcher.Changed += new FileSystemEventHandler(OnChange);
+            watcher.NotifyFilter =  NotifyFilters.FileName;
+            watcher.Created += Watcher_Created;
             watcher.EnableRaisingEvents = true;
-
-
-            System.Console.ReadKey();
+            
+            S.Console.ReadKey();
         }
 
-        private static void OnChange(object sender, FileSystemEventArgs e)
+        private static void Watcher_Created(object sender, FileSystemEventArgs e)
         {
-
             var client = new VisionServiceClient("acff22f5f9b541c8a6849e4239c66744", "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0");
 
-            var file = File.ReadAllBytes(e.FullPath);
+            var name = File.ReadAllBytes(e.FullPath);
 
-            Stream stream = new MemoryStream(file);
+            using (var stream = new MemoryStream(name))
+            {
+                var result = client.RecognizeTextAsync(stream, "pt", true).Result;
 
-            OcrResults result = client.RecognizeTextAsync(stream, "pt", true).Result;
+                var words = from r in result.Regions
+                            from l in r.Lines
+                            from w in l.Words
+                            select w.Text;
 
-            var words = from r in result.Regions
-                        from l in r.Lines
-                        from w in l.Words
-                        select w.Text;
+                var text = string.Join(" ", words.ToArray());
 
-            var output = string.Join(" ", words.ToArray());
+                S.Console.WriteLine($"Complete output from OCR {e.FullPath} : {text}");
 
-            System.Console.WriteLine($"Complete output from OCR: {output}");
+                var storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=labelloaderproductimages;AccountKey=nrjPqOqdt3DRA5vj69qkcEOkeIYI64hnkuYfRvfo9LsBFZTanLoRt9gCYDQx7K2k9fxPao4+OagInG67Pdbt+Q==;EndpointSuffix=core.windows.net");
 
+                var queueClient = storageAccount.CreateCloudQueueClient();
 
-            var queueClient = new QueueClient("Endpoint=sb://geekburger.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=VrwaCn+4NbZkDFguQNGDCu2cMQ7IXyjOPLMto0HuE8Q=", "LabelLoader");
+                var queue = queueClient.GetQueueReference("product-images");
 
-            var jsonString = JsonConvert.SerializeObject(result);
+                queue.CreateIfNotExists();
 
-            var message = new Message(Encoding.UTF8.GetBytes(jsonString));
-
-            queueClient.SendAsync(message).Wait();
-
-            queueClient.CloseAsync().Wait();
+                queue.AddMessage(new CloudQueueMessage(JsonConvert.SerializeObject(new { name, text })));
+            }
         }
     }
 }
