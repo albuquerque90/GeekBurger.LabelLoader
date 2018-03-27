@@ -31,7 +31,7 @@ A página gerada pelo swagger no projeto Geekburger.Dashboard se encontra na seg
 
 O Json gerado pelo swagger no projeto Geekburger.Dashboard se encontra na seguinte URL: https://dashboardgeekburger.azurewebsites.net/swagger/v1/swagger.json
 
- 	Arquitetura
+	Arquitetura
 
 •	Contratos: São responsáveis por definir quais serão os dados de entrada e os de saída da aplicação, facilitando bastante a usabilidade do micro serviço.
 
