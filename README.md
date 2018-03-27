@@ -26,12 +26,13 @@ Neste processo o Dashboard será responsável por coletar as mensagens de ordem 
 
 O LabelLoader será responsável por varrer uma pasta de imagens de rótulos e enviar para o serviço de ingredientes. Swagger.
 
-Swagger.json
+	Swagger.json
 A página gerada pelo swagger no projeto Geekburger.Dashboard se encontra na seguinte URL: https://dashboardgeekburger.azurewebsites.net/swagger/
 
 O Json gerado pelo swagger no projeto Geekburger.Dashboard se encontra na seguinte URL: https://dashboardgeekburger.azurewebsites.net/swagger/v1/swagger.json
 
- Arquitetura
+ 	Arquitetura
+
 •	Contratos: São responsáveis por definir quais serão os dados de entrada e os de saída da aplicação, facilitando bastante a usabilidade do micro serviço.
 
 •	Endpoints: É o caminho que o micro serviço disponibiliza para aqueles que vão consumir seu serviço devem utilizar, para cada método publicado, diferentes endpoints devem ser informados
